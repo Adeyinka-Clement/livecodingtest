@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    background-color: rgb(235,237,255);
+}
+#navbar{
+    position: fixed;
+    background-color: ;
+    background-color: rgb(235,237,255);
+
+}
+.navbar{
+    position: relative;
+    top: -2px;
+    width: 100%;
+    /* important; */
+    height: 90px !important;
+   position: fixed ;
+   background-color: rgb(235,237,255);
+   z-index: 99999999;
+
+}
+.contain{
+    position: relative;
+    left: 180px;
+    top: 6px;
+}
+.logo{
+    width: 260px;
+    position: relative;
+    left: 75px;
+    padding-right: 80px;
+}
+.navthing{
+    position: relative;
+    left: 230px;
+}
+.nav-item{
+    font-size: 15px;
+    font-weight: 500 !important;
+    color: darkblue !important;
+}
+.nav-item a{
+    color: darkblue;
+}
+.active{
+    color: darkblue !important;
+
+}
+
+.btn{
+    background-color: rgb(5, 5, 90) !important;
+    width: 150px;
+    position: relative;
+    right: 70px;
+    color: white !important;
+}
+.main{
+    display: flex;
+
+}
+.intro{
+    position: relative;
+    top: 130px;
+    left: 80px !important;
+    color: rgb(4, 4, 58);
+    line-height: 1.1rem;
+}
+.h1{
+    font-size: 60px !important;
+    font-weight: 350 !important;
+    line-height: 24PX;
+
+}
+.edo{
+    position: relative;
+    top: 1px;
+    /* background-color: aquamarine; */
+    background-color: rgb(195,204,236);
+    display: inline;
+    padding: 5px;
+    font-size: 16px !important;
+}
+h2{
+    font-size: 65px !important;
+    position: relative;
+    top: -20px;
+}
+p{
+    position: relative;
+    top: -20px;
+    font-size: 19px;
+}
+.img1{
+    height: 100vh;
+    width: 890px;
+    position: relative;
+    left: 700PX;
+    top: -100px;
+    /* display: none; */
+}
+.btncontain{
+    position: relative;
+    left: 50px;
+    justify-content: space-between;
+    top: 20px;
+}
+.btn1{
+    color: darkblue !important;
+}
+.rome{
+    font-size: 40px;
+    font-weight: 400;
+}
+.was{
+    font-weight: 700;
+}
+.section2{
+    color: rgb(3, 3, 85);
+    
+}
+.note{
+    font-size: 17px;
+    color: rgb(89, 89, 124);
+
+}
+h4{
+    font-weight: 400;
+}
+.app{
+    width: 400px;
+}
+.cardcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    left: 500px;
+}
+.card{
+    width: 400px !important;
+}
+.section3{
+    display: flex;
+    background-color: white !important;
+    position: relative;
+    bottom: 30px;
+}
+h6{
+    font-size: 1px !important;
+}
